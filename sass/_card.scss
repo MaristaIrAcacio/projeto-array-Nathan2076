@@ -1,0 +1,190 @@
+.card-vertical {
+  position: relative;
+  width: $card-vertical-width;
+  height: $card-vertical-height;
+}
+
+.card-vertical-logo {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.card-vertical-number {
+  position: absolute;
+  color: $color-white;
+  font-weight: 400;
+  font-size: 14px;
+  top: 170px;
+  left: 25px;
+}
+
+.card-vertical-chip {
+  position: absolute;
+  left: 25px;
+  top: 235px;
+}
+
+.card-vertical-name {
+  position: absolute;
+  color: $color-white;
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.54;
+  top: 140px;
+  left: 25px;
+}
+
+.card-vertical-holder {
+  position: absolute;
+  color: $color-white;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.card-vertical-ellipse-top {
+  position: absolute;
+  width: $card-vertical-width;
+  height: $card-vertical-height;
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at 350px -5px);
+  z-index: 1;
+}
+
+.card-vertical-ellipse-bottom {
+  position: absolute;
+  width: $card-vertical-width;
+  height: $card-vertical-height;
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at -110px 293px);
+  z-index: 1;
+}
+
+.card-vertical-expiry-date {
+  position: absolute;
+  color: $color-white;
+  font-weight: 400;
+  font-size: 12px;
+  top: 246px;
+  left: 150px;
+}
+
+.card {
+  position: relative;
+  width: $card-width;
+  height: $card-height;
+}
+
+.card--animation {
+  -webkit-animation: animateCard 1s ease-in-out infinite alternate;
+          animation: animateCard 1s ease-in-out infinite alternate;
+}
+
+.card-name {
+  position: absolute;
+  color: $color-white;
+  margin: 2.5rem 2rem;
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.54;
+}
+
+.card-number {
+  position: absolute;
+  color: $color-white;
+  margin: 4.5rem 2rem;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.card-holder {
+  position: absolute;
+  color: $color-white;
+  margin: 13.7rem 2rem;
+
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.card-expiry-date {
+  position: absolute;
+  color: $color-white;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 14rem 22rem;
+}
+
+.card-logo {
+  position: absolute;
+  margin: 1.5rem 21rem;
+}
+
+.card-ellipse-top {
+  position: absolute;
+  width: 425px;
+  height: 270px;
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at 430px -70px);
+  z-index: 1;
+}
+
+.card-ellipse-bottom {
+  position: absolute;
+  width: 425px;
+  height: 270px;
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at -10px 345px);
+  z-index: 1;
+}
+
+.card-bg {
+  position: absolute;
+  top: 300px;
+  display: none;
+}
+
+.card-vertical-bg {
+  position: absolute;
+  top: 340px;
+  display: block;
+}
+
+.card-bg--animation {
+  -webkit-animation: animateBg 0.5s ease-in-out forwards;
+          animation: animateBg 0.5s ease-in-out forwards;
+
+  display: block;
+}
+
+.card-vertical-bg--animation {
+  -webkit-animation: animateVerticalBg 0.5s ease-in-out forwards;
+          animation: animateVerticalBg 0.5s ease-in-out forwards;
+
+  display: block;
+}
+
+.card-themes {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.card-themes div {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: .4rem .2rem;
+}

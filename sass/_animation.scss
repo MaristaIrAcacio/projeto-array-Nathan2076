@@ -1,0 +1,103 @@
+@-webkit-keyframes animateBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: $card-width;
+    height: $card-height;
+    display: block;
+    top: 0;
+  }
+}
+
+@keyframes animateBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: $card-width;
+    height: $card-height;
+    display: block;
+    top: 0;
+  }
+}
+
+
+@-webkit-keyframes animateVerticalBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: $card-vertical-width;
+    height: $card-vertical-width;
+    display: block;
+    top: 0;
+  }
+}
+
+@keyframes animateVerticalBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: $card-vertical-width;
+    height: $card-vertical-width;
+    display: block;
+    top: 0;
+  }
+}
+
+
+@-webkit-keyframes animateCard {
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+            transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes animateCard {
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+            transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+  }
+}

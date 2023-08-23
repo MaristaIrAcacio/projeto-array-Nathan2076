@@ -1,0 +1,112 @@
+.shadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.shadow-l {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.shadow-xl {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.radius-m {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.radius {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.radius-l {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.radius-xl {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+.mr-1 {
+  margin-right: 0.25rem !important;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+.mr-3 {
+  margin-right: 1rem !important;
+}
+.mr-4 {
+  margin-right: 1.5rem !important;
+}
+.mr-5 {
+  margin-right: 3rem !important;
+}
+
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+.ml-3 {
+  margin-left: 1rem !important;
+}
+.ml-4 {
+  margin-left: 1.5rem !important;
+}
+.ml-5 {
+  margin-left: 3rem !important;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start !important;
+  -webkit-justify-content: flex-start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -webkit-justify-content: flex-end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+/* BACKGROUND COLOR
+-------------------------------------------- */
+.bg-linear-gradient {
+  background-image: -webkit-linear-gradient(26.66deg, #FFF5EB 0%, #F4F2F9 100%);
+  background-image: linear-gradient(63.34deg, #FFF5EB 0%, #F4F2F9 100%);
+}
+
+/* Highlight  */
+
+span.highlight {
+  position: relative;
+  z-index: 1;
+}
+span.highlight::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 7.5px);
+  right: 0;
+  left: 0;
+  height: 15px;
+  background-image: url('../img/underlined.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}

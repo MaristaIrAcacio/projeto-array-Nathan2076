@@ -1,0 +1,46 @@
+.footer {
+  font-family: var(--body-font-family);
+  text-align: center;
+  color: #a3a2a2;
+}
+
+.footer p {
+  font-size: 0.875rem;
+}
+
+.credits, .maintainer {
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  padding: 30px 0;
+  margin: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #a3a2a2;
+}
+
+.love {
+  display: inline-block;
+  position: relative;
+  top: .2em;
+  font-size: 1.4em;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to {-webkit-transform: scale(1.2);}
+}
+
+@-moz-keyframes love {
+  to {-moz-transform: scale(1.2);}
+}
+@keyframes love {
+  to {transform: scale(1.2);}
+}

@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+  max-width: $max-width;
+  padding: $base-padding;
+  -webkit-border-radius: $base-border-radius;
+  -moz-border-radius: $base-border-radius;
+  border-radius: $base-border-radius;
+}
+
+.content {
+  padding: 1rem;
+  width: 500px;
+  margin: auto;
+}
+
+.section-credit-card {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-holder-information {
+  width: 400px;
+}
+
+/* Column  and Flex Container */
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  padding: .1em;
+}
